@@ -3,10 +3,10 @@ import { StyleSheet } from "react-native";
 export {styles}
 const styles = StyleSheet.create({
     headerContainer: { marginTop: 10 },
-    headerText: { fontSize: 30, textAlign: "center", marginTop: 30 },
+    headerText: { fontSize: 30, textAlign: "center", marginTop: 30, color: "#ffffff" },
     container: {
       flex: 1,
-      backgroundColor: "#fff",
+      backgroundColor: "#999999",
     },
     buttonRow: {
       flex: 1,
